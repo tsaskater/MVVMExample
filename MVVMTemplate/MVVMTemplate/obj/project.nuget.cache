@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yqJ/oBEXzQHH9PuUNNlKUodtg000p+fu7oq/BKYcyQiTkb2f6UHP7dalIVPnFjMaOzAp7NcF6xQauC8cLblXZA==",
+  "success": true,
+  "projectFilePath": "W:\\Dokumentumok\\allamvizsga\\MVVMTemplate\\MVVMTemplate\\MVVMTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peti\\.nuget\\packages\\commonservicelocator\\2.0.6\\commonservicelocator.2.0.6.nupkg.sha512",
+    "C:\\Users\\Peti\\.nuget\\packages\\mvvmlightlibsstd10\\5.4.1.1\\mvvmlightlibsstd10.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

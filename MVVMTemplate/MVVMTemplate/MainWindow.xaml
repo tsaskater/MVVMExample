@@ -1,0 +1,32 @@
+﻿<Window x:Class="MVVMTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMTemplate"
+        xmlns:vm="clr-namespace:MVVMTemplate.VM"
+        xmlns:ui="clr-namespace:MVVMTemplate.UI"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Background="#FFCBCBCB">
+    <Window.Resources>
+        <vm:ExampleViewModel x:Key="VM"/>
+        <ui:ResultToBrushConverter x:Key="ResultToBrushConverter" />
+    </Window.Resources>
+    <Grid DataContext="{StaticResource VM}">
+        <Label Content="Number 1: " HorizontalAlignment="Left" Margin="72,97,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Number 2: " HorizontalAlignment="Left" Margin="72,191,0,0" VerticalAlignment="Top" FontSize="24"/>
+
+        <Button Command="{Binding Path=DontClickThis}" Content="Don't click this" HorizontalAlignment="Left"
+                Margin="665,25,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="11" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB0B0B0"/>
+        <Button Command="{Binding Path=AddNumbers}" Content="Add Numbers" HorizontalAlignment="Left"
+                Margin="522,322,0,0" VerticalAlignment="Top" Width="206" Height="60" FontSize="24"/>
+        <TextBox  Text="{Binding Path=Number1}" HorizontalAlignment="Left" Margin="220,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="447" FontSize="24" MaxLength="5"/>
+        <TextBox Text="{Binding Path=Number2}" HorizontalAlignment="Left" Margin="220,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" FontSize="24" MaxLength="5"/>
+        <Label Content="Result: " HorizontalAlignment="Left" Margin="72,301,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="{Binding Path=Result}" HorizontalAlignment="Left" Margin="220,301,0,0" VerticalAlignment="Top" Width="224" FontSize="24" Background="{Binding Path=Result,Converter={StaticResource ResultToBrushConverter}}"/>
+
+    </Grid>
+</Window> 

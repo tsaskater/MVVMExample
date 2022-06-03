@@ -1,0 +1,12 @@
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\bin\Debug\net5.0\Logic.deps.json
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\bin\Debug\net5.0\Logic.dll
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\bin\Debug\net5.0\ref\Logic.dll
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\bin\Debug\net5.0\Logic.pdb
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.dll
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\ref\Logic.dll
+W:\Dokumentumok\allamvizsga\MVVMTemplate\Logic\obj\Debug\net5.0\Logic.pdb
